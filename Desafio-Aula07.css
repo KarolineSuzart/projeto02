@@ -1,0 +1,112 @@
+body{
+    background-color: #e78cea;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.topo{
+    background-image: url(Imagens/soul_cacheadas.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 30px;
+    
+}
+.topoo{
+    margin: 50px auto 0;
+    width: 90%;
+    text-align: center;
+}
+.topoo h1{
+    font-size: 40px;
+    color: #d27ce3;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.topo nav ul{
+    margin: 20px 50px 0 0; 
+   text-align: right;
+}
+.topo nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 2px solid #bf06ac;
+    margin-left: 15px;
+}
+.topo nav a{
+    background-color: #ed7ad6;
+    display: block;
+    color: #8a0c80;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.topo nav a:hover{
+    background-color: #cb679a;
+}
+.topoo a{
+    margin: 10px; 
+    padding: 10px;
+    display: inline-block;
+    color: #8a0c80;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 1px solid #ea4c9e;
+    background-color: #d27ce3;
+}
+.topoo a:hover{
+    background-color: rgba(235, 40, 131, 0.7);
+}
+section{
+    padding-top: 32px;
+}
+section h2{
+    text-align: center;
+    background-color: #ed71b1;
+    margin-top: 10px;
+    color: #fff0fc;
+}
+article{
+    background-color: #cb679a;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+.image{
+    height: 100px;
+    float: left;
+     
+}
+.image:hover {
+    transform: scale(1.3);
+    }    
+.imagem{
+    height: 100px;
+    float: left;
+}
+.imagem:hover{
+    transform: scale(1.3);
+}
+.woman{
+    height: 100px;
+    float: left;
+}
+.woman:hover{
+    transform: scale(1.3);
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    color: #fff0fc;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ce1d76;
+    margin: 0px;
+    padding: 2px;
+
+}
+main{
+    width: 90%;
+    margin: auto;
+}
